@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: prediction-model
+Version: 1.0.0
+Summary: Bank Loan Status Prediction
+Home-page: https://github.com/awaistahseen009/
+Author: Awais Tahseen
+Author-email: awaistahseenaccoun@gmail.com
+License: MIT
+Classifier: LICENSE :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+
+Bank Loan Status Prediction
