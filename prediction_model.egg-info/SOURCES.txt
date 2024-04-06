@@ -14,6 +14,8 @@ prediction_model.egg-info/top_level.txt
 prediction_model/config/__init__.py
 prediction_model/config/config.py
 prediction_model/datasets/__init__.py
+prediction_model/datasets/test.txt
+prediction_model/datasets/train.txt
 prediction_model/processing/__init__.py
 prediction_model/processing/data_handling.py
 prediction_model/processing/preprocessing.py
