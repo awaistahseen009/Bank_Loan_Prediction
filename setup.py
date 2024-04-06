@@ -9,7 +9,6 @@ URL = "https://github.com/awaistahseen009/"
 EMAIL = "awaistahseenaccoun@gmail.com"
 AUTHOR = "Awais Tahseen"
 REQUIRES_PYTHON = ">=3.7.0"
-os.path.dirname
 pwd = os.path.abspath(os.path.dirname(__file__))
 def list_req(filename = "requirements.txt"):
     with io.open(os.path.join(pwd, filename), encoding='utf-8') as f:
@@ -39,7 +38,7 @@ setup(
     python_requires=REQUIRES_PYTHON,
     url=URL,
     packages=find_packages(exclude=('tests',)),
-    package_data={'prediction_model':['VERSION']},
+    package_data={'prediction_model': ['VERSION', 'datasets/*.txt']},
     install_requires = list_req(),
     extras_require = {},
     include_package_data= True,
